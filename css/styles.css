@@ -1,7 +1,79 @@
-h1 {
-  text-align: center;
+body {
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/002/019/067/original/dark-world-map-animate-background-free-video.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: didot;
+}
+
+a {
+  color: #ff347f;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  padding: 30px;
+  box-shadow: 0px 7px 29px 0px black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed grey;
+}
+
+.city:last-child {
+  border: none;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
 }
 
 footer {
   text-align: center;
+  font-size: 18px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: didot;
+  font-size: 36px;
 }
